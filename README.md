@@ -55,7 +55,6 @@ streamlit run app.py
 - [x] Use OCR to recognize the text on license plates
 - [x] Basic validation for detected license plates
 - [x] Display the vehicle and license plate images with confidence score
-- [x] Export detection results to CSV for further use
 
 ## License
 
