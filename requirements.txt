@@ -97,3 +97,4 @@ tzdata==2024.2
 ultralytics==8.3.55
 ultralytics-thop==2.0.13
 urllib3==2.3.0
+opencv-python-headless
