@@ -42,10 +42,10 @@ streamlit run app.py
 
 ## Built With
 * [Streamlit](https://streamlit.io)
-* YOLOv8
+* [YOLOv8](https://yolov8.com)
 * [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 * [OpenCV](https://opencv.org/)
-* Pillow
+* [Pillow](https://pypi.org/project/pillow/)
 * [Pandas](https://pandas.pydata.org/)
 
 ## Features
