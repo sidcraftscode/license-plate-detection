@@ -2,7 +2,7 @@
 
 A powerful and efficient license plate detection system that utilizes YOLOv8 for vehicle detection, a custom YOLO model for license plate detection, and PaddleOCR for optical character recognition. This system allows users to upload images and extract vehicle license plates with high accuracy.
 
-You can preview it here (add link if hosted).
+You can preview it [here](https://licenseplatedetector.streamlit.app).
 
 ## Getting Started
 ### Prerequisites
