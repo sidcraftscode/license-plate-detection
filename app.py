@@ -3,7 +3,6 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 from PIL import Image
-import pandas as pd
 import io
 from paddleocr import PaddleOCR
 import re
@@ -138,15 +137,6 @@ def main():
 
                 st.divider()
 
-            # Export results
-            st.subheader("Export Results")
-            csv = pd.DataFrame(all_detections)[['license_plate', 'confidence']].to_csv(index=False)
-            st.download_button(
-                label="Download Results CSV",
-                data=csv,
-                file_name="license_plate_detections.csv",
-                mime="text/csv"
-            )
         else:
             st.warning("No license plates detected in the uploaded images.")
 
